@@ -57,7 +57,7 @@ public class Bolsa<T extends Comparable<T>> implements Iterable<T> {
 	   
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
-        System.out.println("el timpo de insertion "+ elapsedTime);
+        System.out.println("el tiempo de insertion "+ elapsedTime);
         return list;
 	  }
 
@@ -81,7 +81,7 @@ public class Bolsa<T extends Comparable<T>> implements Iterable<T> {
 	      }
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
-        System.out.println("el timpo de gnome "+ elapsedTime);
+        System.out.println("el tiempo de gnome "+ elapsedTime);
 	      return array;
 	}
 
@@ -109,7 +109,7 @@ public class Bolsa<T extends Comparable<T>> implements Iterable<T> {
        
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
-        System.out.println("el timpo de selecction "+ elapsedTime);
+        System.out.println("el tiempo de selecction "+ elapsedTime);
 		return A;
 	}
 	
@@ -119,7 +119,7 @@ public class Bolsa<T extends Comparable<T>> implements Iterable<T> {
 	    quicksort(a,0, a.length-1);
 	    long stopTime = System.currentTimeMillis();
 	    long elapsedTime = stopTime - startTime;
-	    System.out.println("el timpo de quick "+ elapsedTime);
+	    System.out.println("el tiempo de quick "+ elapsedTime);
 	    return a;
 	}
 
@@ -173,7 +173,7 @@ public class Bolsa<T extends Comparable<T>> implements Iterable<T> {
 		
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
-        System.out.println("el timpo de heap "+ elapsedTime);
+        System.out.println("el tiempo de heap "+ elapsedTime);
 		return array;
 	}
 
@@ -253,7 +253,7 @@ public class Bolsa<T extends Comparable<T>> implements Iterable<T> {
 	
         long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
-        System.out.println("el timpo de cocktali "+ elapsedTime);
+        System.out.println("el tiempo de cocktali "+ elapsedTime);
         return arreglocopia;
 	}
 
@@ -277,7 +277,7 @@ public class Bolsa<T extends Comparable<T>> implements Iterable<T> {
 
 		long stopTime = System.currentTimeMillis();
         long elapsedTime = stopTime - startTime;
-        System.out.println("el timpo de shell "+ elapsedTime);
+        System.out.println("el tiempo de shell "+ elapsedTime);
         return values;
 
 	}
@@ -299,7 +299,7 @@ public class Bolsa<T extends Comparable<T>> implements Iterable<T> {
 		    
 		    long stopTime = System.currentTimeMillis();
 	        long elapsedTime = stopTime - startTime;
-	        System.out.println("el timpo de counting "+ elapsedTime);
+	        System.out.println("el tiempo de counting "+ elapsedTime);
 		    return A;
 	}
 
